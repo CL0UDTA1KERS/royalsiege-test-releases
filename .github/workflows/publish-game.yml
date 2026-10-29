@@ -1,0 +1,33 @@
+name: Build verified public test runtime
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile-runtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      TZ: UTC
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.14.1'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Fetch the pinned public runtime input
+        run: |
+          curl --fail --location --retry 3 --max-filesize 115275223 \
+            --output runtime-input.zip \
+            https://github.com/CL0UDTA1KERS/royalsiege-test-releases/releases/download/input-iis030/runtime-input.zip
+      - name: Recompile JavaScript and verify the runtime-only package
+        run: npm run build
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: royalsiege-http-test
+          path: dist/*
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,8 @@
+{
+  "name": "@cl0udta1kers/royalsiege-test-publication",
+  "version": "0.0.30",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build-public-runtime.mjs" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}

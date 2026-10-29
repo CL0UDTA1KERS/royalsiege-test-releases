@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "testOnly": true,
+  "inputSha256": "56b640d33a8f3bdab3fd2f7cd27e931f572a58ec7f9bf934ea33c586118844a2",
+  "inputBytes": 115275223,
+  "upstreamTypeScriptCommit": "951470dbf9e9efd01b79cd42f72f72a06e83d9ce",
+  "upstreamTypeScriptCompile": "passed",
+  "upstreamBundleSha256": "aa9be46e70067fd461b4237d9213c3d1b17e6dddf7c28e87880ca21749ec80c8",
+  "files": [
+    {
+      "path": "assets/app.js",
+      "bytes": 6550665,
+      "sha256": "aa9be46e70067fd461b4237d9213c3d1b17e6dddf7c28e87880ca21749ec80c8"
+    },
+    {
+      "path": "assets/azureguard1an.glb",
+      "bytes": 88169732,
+      "sha256": "5118417aa06b7175d0def865d29470a2feff69bb050a13b29b041f06c974e730"
+    },
+    {
+      "path": "assets/balloon-rook.glb",
+      "bytes": 18440096,
+      "sha256": "21de731446ee4768080fd1cc1ac61baca0b3b292d7e877937c310f5ed5619e6c"
+    },
+    {
+      "path": "assets/banana-pawn.glb",
+      "bytes": 2469540,
+      "sha256": "c68d5021898a3653c91b427ce5154c594a5cd8136130952b53b1b5d593bca282"
+    },
+    {
+      "path": "assets/black-gold-bishop.glb",
+      "bytes": 20213324,
+      "sha256": "68849af08300ead13f7c3227ebf8a766d7a895701f4f0a2a273b8c5b0845d939"
+    },
+    {
+      "path": "assets/glslang/glslang.js",
+      "bytes": 16030,
+      "sha256": "c3a3c2a47284b16b60293fa08a5842fbe8689ac617edc857ab6cb8134a590db4"
+    },
+    {
+      "path": "assets/glslang/glslang.wasm",
+      "bytes": 943680,
+      "sha256": "d79453e0803ebcdf3753c6b1d8d51543b52fed96f7f0d4aec94acd847e225169"
+    },
+    {
+      "path": "assets/golden-knight.glb",
+      "bytes": 20352652,
+      "sha256": "337852dc8630b37f1fa26b913bae38518c1e296472dcb47255770bc3bcb63f26"
+    },
+    {
+      "path": "assets/intro-music.wav",
+      "bytes": 5292044,
+      "sha256": "b1970d3d79248b9385acb8d9b029b30f876fc22d33cd77e18743a792e2eb7cff"
+    },
+    {
+      "path": "assets/lunar-geology.glb",
+      "bytes": 1469356,
+      "sha256": "3fc79865f6a9f5e54c2ef665362cf5edf16155a7140dd282bc9ccae0c999dd5e"
+    },
+    {
+      "path": "assets/lunar-lighting.hdr",
+      "bytes": 529457,
+      "sha256": "1f8c30d7aa79ddfdc7abd8535b05f4c051205341ac1437cd293ac5e2b4b6bfd8"
+    },
+    {
+      "path": "assets/manager-carry-weights.bin",
+      "bytes": 3181792,
+      "sha256": "1ae709f59c79fc7f2b32a8e30b1abe036b6ae3e2e370fed54edca55d0bf44df3"
+    },
+    {
+      "path": "assets/objective-flag.glb",
+      "bytes": 1283592,
+      "sha256": "c79b4bae0a5b514ebf76cdcb8d3b3fceea093bdcd6414757df2fc4060802da11"
+    },
+    {
+      "path": "assets/stratego-rack.glb",
+      "bytes": 8275792,
+      "sha256": "1b51aeb471fb11ae03157c859c3f97a05c81452ce6dc8e21dd0645548c302837"
+    },
+    {
+      "path": "assets/twgsl/twgsl.js",
+      "bytes": 74555,
+      "sha256": "b4f1f66263b801210f955f74aa71f1939be647ce0fd80ea5befd12a78499d5ff"
+    },
+    {
+      "path": "assets/twgsl/twgsl.wasm",
+      "bytes": 1702916,
+      "sha256": "a434c2decdbb38caadf5f486d806384a1543554828c983c77922b2d92579914c"
+    },
+    {
+      "path": "assets/white-king.glb",
+      "bytes": 10232164,
+      "sha256": "20e88088d09c64db332fc38e1d7991007a80d8605bc39b15156baf3b4c2d663b"
+    },
+    {
+      "path": "assets/white-queen.glb",
+      "bytes": 11491784,
+      "sha256": "002ece86956fc414fc049e837eba8160ec4b42294defe4e1709e8f0169a04ebc"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 5644,
+      "sha256": "0297509550d25bcbc498eafbc7fc40c03368bc774f7409a5bc0dc9877f68d972"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6189,
+      "sha256": "3a6a2d07e03144b2b384967a371d4187305ef899d63b82df0ca01bc51a4798d5"
+    },
+    {
+      "path": "licenses/babylon-apache-2.0.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "licenses/babylon-loaders-apache-2.0.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "licenses/babylon-notice.txt",
+      "bytes": 793,
+      "sha256": "7f85d099ce3c6e1900a45ee8d5b8fa405e760c746af687b3ee2081416e48f183"
+    },
+    {
+      "path": "README.html",
+      "bytes": 667,
+      "sha256": "0b2f7423e9bbbaf9dc3f3783dfe1b1db6c033d081dca994cfe41a94b7f954e92"
+    },
+    {
+      "path": "runtime/references/038401940941196360313886201827660199063/lunar-datacenter-designer-18.png",
+      "bytes": 379091,
+      "sha256": "8c79628985f431248548ce1e6332715217499579a15bbae621bbfe6225468eca"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 7486,
+      "sha256": "b3711e9ee0e286020857ac3ecd0e3091a83c34a621105bd9ad8f10d823c31ad6"
+    },
+    {
+      "path": "thumbnail.png",
+      "bytes": 145917,
+      "sha256": "c56bf101647f7c526dc864d2dca433149954d2fe4ddaeb6579c00ff42518d351"
+    },
+    {
+      "path": "web.config",
+      "bytes": 1479,
+      "sha256": "e0d4dd3bbed30d0844155f35c164fd375f3bf17bc4aec3ab02da5af682fccf5b"
+    }
+  ]
+}
