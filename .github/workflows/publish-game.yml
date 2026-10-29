@@ -20,7 +20,7 @@ jobs:
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Fetch the pinned public runtime input
         run: |
-          curl --fail --location --retry 3 --max-filesize 115275223 \
+          curl --fail --location --retry 3 --max-filesize "$(node -p "require('./publication-input.json').inputBytes")" \
             --output runtime-input.zip \
             https://github.com/CL0UDTA1KERS/royalsiege-test-releases/releases/download/input-iis030/runtime-input.zip
       - name: Recompile JavaScript and verify the runtime-only package
