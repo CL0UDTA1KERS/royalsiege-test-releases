@@ -22,7 +22,7 @@ jobs:
         run: |
           curl --fail --location --retry 3 --max-filesize "$(node -p "require('./publication-input.json').inputBytes")" \
             --output runtime-input.zip \
-            https://github.com/CL0UDTA1KERS/royalsiege-test-releases/releases/download/input-iis032/runtime-input.zip
+            https://github.com/CL0UDTA1KERS/royalsiege-test-releases/releases/download/input-iis033/runtime-input.zip
       - name: Recompile JavaScript and verify the runtime-only package
         run: npm run build
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

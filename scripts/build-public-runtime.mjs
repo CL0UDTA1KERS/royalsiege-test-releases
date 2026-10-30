@@ -55,7 +55,7 @@ assert.equal(files.filter(file => file.path.endsWith(".glb")).length, 10);
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=movement-032"'));
+assert.ok(html.includes('src="./assets/app.js?v=movement-033"'));
 assert.ok(html.includes('id="movement-mode"'));
 assert.ok(html.includes('id="movement-panel"'));
 assert.ok(html.includes("TEST PREVIEW / SCENE BUILD"));
