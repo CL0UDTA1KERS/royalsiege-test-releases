@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "d453d296260dc1c2afb4f4fe278acd357c68979b0fabb2e474eb0df7347118f5",
-  "inputBytes": 130100521,
-  "upstreamTypeScriptCommit": "e2a91287e4b8bfa9e6665373ba69e7a5dc54b02c",
+  "inputSha256": "2f5815d8b57e5308a4378d0a007ea1a857195c66349caed6dc492eb721077ee6",
+  "inputBytes": 132224239,
+  "upstreamTypeScriptCommit": "fe2999aa754e3a4e43eda3ba7e6b364c1fadc280",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "7f206b278c063d8b8b448a554d898b5c8f7272f2884685fa578cc6dc3e40668a",
+  "upstreamBundleSha256": "ddaa76d29a032a99bf04b894d327de4e1d0ee2e5beaea9ff86053fd8da3eb668",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6628165,
-      "sha256": "7f206b278c063d8b8b448a554d898b5c8f7272f2884685fa578cc6dc3e40668a"
+      "bytes": 6636294,
+      "sha256": "ddaa76d29a032a99bf04b894d327de4e1d0ee2e5beaea9ff86053fd8da3eb668"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -119,8 +119,8 @@
     },
     {
       "path": "assets/intro-music.wav",
-      "bytes": 5292044,
-      "sha256": "b1970d3d79248b9385acb8d9b029b30f876fc22d33cd77e18743a792e2eb7cff"
+      "bytes": 7589932,
+      "sha256": "3438b56d69d2963df24fb469c8203bd6864e70898bd499a3ddf1a62c5ca0fd87"
     },
     {
       "path": "assets/lunar-geology.glb",
@@ -169,13 +169,13 @@
     },
     {
       "path": "credits.html",
-      "bytes": 6815,
-      "sha256": "f750d8e3bdeb15e0161be0d6b1c88e319a860c0d8ff7acf2e8ea0977e8f70627"
+      "bytes": 7009,
+      "sha256": "13de74c643e37db33a82945c21ef37fababc1b4453da276b31a83d1ac11273be"
     },
     {
       "path": "index.html",
-      "bytes": 7425,
-      "sha256": "6166abb2f6b2cd4294dce395d4eca349822266256744bd0b5c7574c12be2cde6"
+      "bytes": 7706,
+      "sha256": "f7e0f8b9b83cd17a8aa3377b6a6ec04780191381ef13c178b5c9361b56ac9569"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -219,8 +219,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 9435,
-      "sha256": "abe2381ab4e72ef4143283281de251856438cb66a6a5cd07826197078aa218ab"
+      "bytes": 10000,
+      "sha256": "01c42cc7e034fc938b1c16c00500d42b852e956bd530463b9f0a0e1d3cd9aff6"
     },
     {
       "path": "thumbnail.png",
