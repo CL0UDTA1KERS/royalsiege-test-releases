@@ -1,21 +1,26 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "716252714d8e7c1329f46328db5422a74e4ecfba2044d1ca191627733a56629b",
-  "inputBytes": 130072364,
-  "upstreamTypeScriptCommit": "5a40bfd49087d6e9bc7147542fa91114566faafd",
+  "inputSha256": "f61798957232bad371eb8b604197ed7c8de13f1c29dbe48fbb01269482cf3c02",
+  "inputBytes": 130092503,
+  "upstreamTypeScriptCommit": "1e4772a786a721ac665e2c2bbbcd31b32af74836",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "64c4547c4ed147a33b35dec0426ac3a8357d2e476bd64b23024ecfa88df0f9ce",
+  "upstreamBundleSha256": "fd1f3f9c23de0de60b92840eee9744c288fe2e2c23617122c3030e306f9f977f",
   "files": [
     {
+      "path": "README.html",
+      "bytes": 667,
+      "sha256": "0b2f7423e9bbbaf9dc3f3783dfe1b1db6c033d081dca994cfe41a94b7f954e92"
+    },
+    {
       "path": "assets/app.js",
-      "bytes": 6555167,
-      "sha256": "64c4547c4ed147a33b35dec0426ac3a8357d2e476bd64b23024ecfa88df0f9ce"
+      "bytes": 6606460,
+      "sha256": "fd1f3f9c23de0de60b92840eee9744c288fe2e2c23617122c3030e306f9f977f"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
-      "bytes": 127,
-      "sha256": "cf4603e774f9714b1f6d14823020c770228ed86f6100cc8e2f6a6c84850c0aa6"
+      "bytes": 1609,
+      "sha256": "8fa9d73b86220c559eb7040fff02f81f1149a438a3a54e7882b9c66dbc7ba913"
     },
     {
       "path": "assets/azureguard1an.glb",
@@ -164,13 +169,13 @@
     },
     {
       "path": "credits.html",
-      "bytes": 6271,
-      "sha256": "5d01fca8c08f24f5e556a3a7515bfe448cef3f6e6076fa71adc85cf0a02ca6d5"
+      "bytes": 6579,
+      "sha256": "52a457a503cdba0bbb6a81bf9d00865a8df27da03d4c2d0972b57cf2be39e853"
     },
     {
       "path": "index.html",
-      "bytes": 6205,
-      "sha256": "33bfc9b200223c812ae1663bb07ee6a0c3a93b417226e637b9f8475e6c6b8872"
+      "bytes": 7935,
+      "sha256": "4fae7f2cd8b6f1006b15cffdf488e6135f7314a234d3417d5f5d7706019f93d5"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -208,19 +213,14 @@
       "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
     },
     {
-      "path": "README.html",
-      "bytes": 667,
-      "sha256": "0b2f7423e9bbbaf9dc3f3783dfe1b1db6c033d081dca994cfe41a94b7f954e92"
-    },
-    {
       "path": "runtime/references/038401940941196360313886201827660199063/lunar-datacenter-designer-18.png",
       "bytes": 379091,
       "sha256": "8c79628985f431248548ce1e6332715217499579a15bbae621bbfe6225468eca"
     },
     {
       "path": "styles.css",
-      "bytes": 7486,
-      "sha256": "b3711e9ee0e286020857ac3ecd0e3091a83c34a621105bd9ad8f10d823c31ad6"
+      "bytes": 8521,
+      "sha256": "733a3a6d5706f89c3a266e45db5b9beb473d9dcbafd13b0739f08723facd463f"
     },
     {
       "path": "thumbnail.png",
