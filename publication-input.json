@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "d463a8497d0b690de6853a9608d91c068fc812a82d3322b0ec49e4263940d104",
-  "inputBytes": 130093035,
-  "upstreamTypeScriptCommit": "feb331a4e73e7cf4626842293a0dbc3c1dfbe6e4",
+  "inputSha256": "5f79830dea180ea445ef39426aa3ea92db94ab243d6375fa628ee27aa93cbe43",
+  "inputBytes": 130100158,
+  "upstreamTypeScriptCommit": "d731b32345de6540417be2a46c2b98651fee0b23",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "81c19dbc97027343450942abbcdb2a2547cd51ba1d316c9a8cf9450e0b2ae002",
+  "upstreamBundleSha256": "01980c62cc89827f9aa59b2970604a924065bc16340d90a506dc380644f7aa31",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6607950,
-      "sha256": "81c19dbc97027343450942abbcdb2a2547cd51ba1d316c9a8cf9450e0b2ae002"
+      "bytes": 6626269,
+      "sha256": "01980c62cc89827f9aa59b2970604a924065bc16340d90a506dc380644f7aa31"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -169,13 +169,13 @@
     },
     {
       "path": "credits.html",
-      "bytes": 6685,
-      "sha256": "ff877d6ecf881ccc7990ae79b75a79fa64e2206f119a7a20ef47bfa2baa73db7"
+      "bytes": 6815,
+      "sha256": "f750d8e3bdeb15e0161be0d6b1c88e319a860c0d8ff7acf2e8ea0977e8f70627"
     },
     {
       "path": "index.html",
-      "bytes": 7948,
-      "sha256": "699ec82fad7dc8f738d9c37dbd2bfda5aa1b51d9b0dc5d939463f089725e424f"
+      "bytes": 8602,
+      "sha256": "14d2b33bf9f297c6ce5c5e145c3e4fe6b598ac293a05fefeae2eac79204013b5"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -219,8 +219,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 8521,
-      "sha256": "733a3a6d5706f89c3a266e45db5b9beb473d9dcbafd13b0739f08723facd463f"
+      "bytes": 8614,
+      "sha256": "06b5234d9f1225757f76e13f96345ba8777d5830a5cdf608dea4fc4e5f292a78"
     },
     {
       "path": "thumbnail.png",
