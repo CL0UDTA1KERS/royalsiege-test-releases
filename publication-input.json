@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "68e661bb40c8eed4bca9dd1c371be7302feb7264dd9554986b01b7bb3d393907",
-  "inputBytes": 115278625,
-  "upstreamTypeScriptCommit": "62fa84f419e4f649a628735f8f1c10f79bdcd075",
+  "inputSha256": "716252714d8e7c1329f46328db5422a74e4ecfba2044d1ca191627733a56629b",
+  "inputBytes": 130072364,
+  "upstreamTypeScriptCommit": "5a40bfd49087d6e9bc7147542fa91114566faafd",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "fe97f810a031d2b6fb86c7ff5544d0c87cafde9f475519b1fde032cfd375d10c",
+  "upstreamBundleSha256": "64c4547c4ed147a33b35dec0426ac3a8357d2e476bd64b23024ecfa88df0f9ce",
   "files": [
     {
       "path": "assets/app.js",
-      "bytes": 6555084,
-      "sha256": "fe97f810a031d2b6fb86c7ff5544d0c87cafde9f475519b1fde032cfd375d10c"
+      "bytes": 6555167,
+      "sha256": "64c4547c4ed147a33b35dec0426ac3a8357d2e476bd64b23024ecfa88df0f9ce"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -19,23 +19,78 @@
     },
     {
       "path": "assets/azureguard1an.glb",
-      "bytes": 88169732,
-      "sha256": "5118417aa06b7175d0def865d29470a2feff69bb050a13b29b041f06c974e730"
+      "bytes": 55170332,
+      "sha256": "de94765fa6a5c699151cdcdbf1067772d10af7c83906bb151e5a7071f3e404fd"
     },
     {
       "path": "assets/balloon-rook.glb",
-      "bytes": 18440096,
-      "sha256": "21de731446ee4768080fd1cc1ac61baca0b3b292d7e877937c310f5ed5619e6c"
+      "bytes": 15607684,
+      "sha256": "9a96bea26db441ccc9f470b1f58a019f916ab0938d125d00bdae5f321c4a7341"
     },
     {
       "path": "assets/banana-pawn.glb",
-      "bytes": 2469540,
-      "sha256": "c68d5021898a3653c91b427ce5154c594a5cd8136130952b53b1b5d593bca282"
+      "bytes": 1053076,
+      "sha256": "e8ece04b6984c8b34861b9a3e8e60c156c91a627a8242798d01d12e6ba6e9b4c"
     },
     {
       "path": "assets/black-gold-bishop.glb",
-      "bytes": 20213324,
-      "sha256": "68849af08300ead13f7c3227ebf8a766d7a895701f4f0a2a273b8c5b0845d939"
+      "bytes": 15491316,
+      "sha256": "af1462c7e9729b998d8007fea746ea05187d4e06aa314e2ca228852229ffb785"
+    },
+    {
+      "path": "assets/codecs/ktx2Decoder.js",
+      "bytes": 23027,
+      "sha256": "faf6bc765dfab7d691c3b7dfb5a7e159a8311276a1b825b5eb6382a1e0027237"
+    },
+    {
+      "path": "assets/codecs/meshoptDecoder.js",
+      "bytes": 26265,
+      "sha256": "00aea6463f16896a463d2650b81329b26dd0b428b0535858c58fc6a6e265e1e4"
+    },
+    {
+      "path": "assets/codecs/msc_basis_transcoder.js",
+      "bytes": 63318,
+      "sha256": "b8906bae7e55606aba070642eb3bce790a2b5aea774874e120e9fd41f7c7d60b"
+    },
+    {
+      "path": "assets/codecs/msc_basis_transcoder.wasm",
+      "bytes": 455582,
+      "sha256": "29becbf0eef2ce9f6d72109ad217704ec3799c432da0c26e3893b793ecab6bdc"
+    },
+    {
+      "path": "assets/codecs/uastc_astc.wasm",
+      "bytes": 12212,
+      "sha256": "6846c972b4a52d938866f43896fd2b2450052da807cdd1285e898be80614d612"
+    },
+    {
+      "path": "assets/codecs/uastc_bc7.wasm",
+      "bytes": 14650,
+      "sha256": "be442ab8c0cbf734ded98e6ad38112aaba23c83bfeecac4213ded54631fc4eef"
+    },
+    {
+      "path": "assets/codecs/uastc_r8_unorm.wasm",
+      "bytes": 14139,
+      "sha256": "0467c98b150a630e5a51f7810843e8b7fd9aad22e3888baf70aad255c55d02bc"
+    },
+    {
+      "path": "assets/codecs/uastc_rg8_unorm.wasm",
+      "bytes": 17611,
+      "sha256": "fb45a2c103c59cec21c3708a6534d43cd4381669f66d3292dd8a6e4e1956d773"
+    },
+    {
+      "path": "assets/codecs/uastc_rgba8_srgb_v2.wasm",
+      "bytes": 24158,
+      "sha256": "1f4d2e8bfef4e31679b23d473e1c410c29f7e485a739e76c5b357628f4190874"
+    },
+    {
+      "path": "assets/codecs/uastc_rgba8_unorm_v2.wasm",
+      "bytes": 30121,
+      "sha256": "b7470b26a847994cdeb9226eeba1e3711688e378ee438b7dd941e83cb598b694"
+    },
+    {
+      "path": "assets/codecs/zstddec.wasm",
+      "bytes": 29232,
+      "sha256": "67d12d34f82ef700ec3a3795a77590252858c70330908a87ed1e73efc268cb4b"
     },
     {
       "path": "assets/glslang/glslang.js",
@@ -49,8 +104,13 @@
     },
     {
       "path": "assets/golden-knight.glb",
-      "bytes": 20352652,
-      "sha256": "337852dc8630b37f1fa26b913bae38518c1e296472dcb47255770bc3bcb63f26"
+      "bytes": 15065112,
+      "sha256": "a3aa52551955987e81ba4b8ca6ba000b457ab6345b55212d76ee7d708028941a"
+    },
+    {
+      "path": "assets/inspection.json",
+      "bytes": 2544,
+      "sha256": "fdb0a53d92a49060df925bd4855bd36d6c246eef93a8a285641568fa8bb99851"
     },
     {
       "path": "assets/intro-music.wav",
@@ -59,8 +119,8 @@
     },
     {
       "path": "assets/lunar-geology.glb",
-      "bytes": 1469356,
-      "sha256": "3fc79865f6a9f5e54c2ef665362cf5edf16155a7140dd282bc9ccae0c999dd5e"
+      "bytes": 965848,
+      "sha256": "0599b0db6284f281e15f12e31fbf96ed55198d7fbad6ab11c1f2f8740121f9d5"
     },
     {
       "path": "assets/lunar-lighting.hdr",
@@ -74,13 +134,13 @@
     },
     {
       "path": "assets/objective-flag.glb",
-      "bytes": 1283592,
-      "sha256": "c79b4bae0a5b514ebf76cdcb8d3b3fceea093bdcd6414757df2fc4060802da11"
+      "bytes": 653640,
+      "sha256": "4447c73ea65058773bee554d0d21ae39086c187dcc86f861097946f0857417fa"
     },
     {
       "path": "assets/stratego-rack.glb",
-      "bytes": 8275792,
-      "sha256": "1b51aeb471fb11ae03157c859c3f97a05c81452ce6dc8e21dd0645548c302837"
+      "bytes": 6405664,
+      "sha256": "cd1649865093f30225bc4f6116eccce6c426ef26a6aa9dc48309d0c09e28fc1b"
     },
     {
       "path": "assets/twgsl/twgsl.js",
@@ -94,23 +154,23 @@
     },
     {
       "path": "assets/white-king.glb",
-      "bytes": 10232164,
-      "sha256": "20e88088d09c64db332fc38e1d7991007a80d8605bc39b15156baf3b4c2d663b"
+      "bytes": 7843580,
+      "sha256": "f378367fc7a1360b3cf600bd08a086c6eeeabf2f7c9ae142c913288b5fd8c82b"
     },
     {
       "path": "assets/white-queen.glb",
-      "bytes": 11491784,
-      "sha256": "002ece86956fc414fc049e837eba8160ec4b42294defe4e1709e8f0169a04ebc"
+      "bytes": 9225296,
+      "sha256": "6c3ef7f2631c02610ffef1fbac875f87bda3e213a0c93964bc585d065f359c5c"
     },
     {
       "path": "credits.html",
-      "bytes": 5883,
-      "sha256": "3328e27cb8445585790d2fc72dd9f5defdddcda73f84fcebfaa3677adf958c75"
+      "bytes": 6271,
+      "sha256": "5d01fca8c08f24f5e556a3a7515bfe448cef3f6e6076fa71adc85cf0a02ca6d5"
     },
     {
       "path": "index.html",
-      "bytes": 6189,
-      "sha256": "3a6a2d07e03144b2b384967a371d4187305ef899d63b82df0ca01bc51a4798d5"
+      "bytes": 6205,
+      "sha256": "33bfc9b200223c812ae1663bb07ee6a0c3a93b417226e637b9f8475e6c6b8872"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -126,6 +186,21 @@
       "path": "licenses/babylon-notice.txt",
       "bytes": 793,
       "sha256": "7f85d099ce3c6e1900a45ee8d5b8fa405e760c746af687b3ee2081416e48f183"
+    },
+    {
+      "path": "licenses/ktx2-WASM-third-party.txt",
+      "bytes": 24734,
+      "sha256": "a5f49089897509e43a03cfb81e1fd689e3b9e00f3381c5ec74a12cb716c7df49"
+    },
+    {
+      "path": "licenses/ktx2decoder-APACHE-2.0.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "licenses/meshoptimizer-MIT.txt",
+      "bytes": 1079,
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26"
     },
     {
       "path": "licenses/noble-hashes-MIT.txt",
