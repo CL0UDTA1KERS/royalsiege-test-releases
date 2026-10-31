@@ -57,7 +57,7 @@ assert.equal(files.find(file => file.path === "assets/master-chief.glb").sha256,
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=loading-042"'));
+assert.ok(html.includes('src="./assets/app.js?v=ui-043"'));
 assert.ok(html.includes('id="win-estimates"'));
 assert.ok(html.includes('<dialog id="loading"'));
 assert.ok(html.includes('autoplay muted loop playsinline'));
@@ -75,6 +75,8 @@ assert.equal(files.find(file=>file.path==="assets/intro-music.wav").sha256,"3438
 assert.ok(html.includes('id="movement-mode"'));
 assert.ok(html.includes('id="new-game"'));
 assert.ok(html.includes('id="board-lock"'));
+assert.ok(!html.includes("<h1>ROYAL"));
+const styles=await readFile("work/styles.css","utf8");assert.ok(styles.includes("min-height:32px"));assert.ok(styles.includes("min-height:36px"));
 assert.ok(html.includes('id="game-hud"'));
 assert.ok(html.includes('id="promotion-dialog"'));
 assert.ok(!html.includes('id="movement-panel"'));

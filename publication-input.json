@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "a1d540420259e7c5f4db85f7fcbeb1b6b41edb62b9fe04d7648ee29f5e7642fa",
-  "inputBytes": 177793052,
-  "upstreamTypeScriptCommit": "5cb796d77abb9a8a94114c3a51b56f799d22d5d1",
+  "inputSha256": "efb6f72fb0d048a6b4b44b49c8086c203459833c917007807d690139f2ec2c43",
+  "inputBytes": 177793119,
+  "upstreamTypeScriptCommit": "911904faf026df0bc40fa9efec0f90e4e754e016",
   "upstreamTypeScriptCompile": "passed",
   "upstreamBundleSha256": "6e73d8932e4c4b23a152773ec460c572a3db013b7b05303adef58def204a23b9",
   "files": [
@@ -113,6 +113,16 @@
       "sha256": "a3aa52551955987e81ba4b8ca6ba000b457ab6345b55212d76ee7d708028941a"
     },
     {
+      "path": "assets/guardian-loading.jpg",
+      "bytes": 24634,
+      "sha256": "22733ef0df08e7bd84f7b8a9df5fca4e7d8af93db6cd482330f80afaa2d202a4"
+    },
+    {
+      "path": "assets/guardian-loading.mp4",
+      "bytes": 544142,
+      "sha256": "d94faad0b2deea881e181fe419a451b0eba1e6891ecec0fa59e7eb8bc18078fe"
+    },
+    {
       "path": "assets/inspection.json",
       "bytes": 2940,
       "sha256": "64d0cac7e6f9725695b697cda10d93a62f731f954c07bc758e3a4e63e4a30e92"
@@ -179,8 +189,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9297,
-      "sha256": "52c9ad66388b4632d44e1f270b653b08227093434cff28ec707185bc32ba2e7a"
+      "bytes": 9260,
+      "sha256": "067c8959b6de842f865724ddc25636eec287c64a57af774f62522dcbd5621730"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -224,8 +234,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 11775,
-      "sha256": "cb61bb038e6bdb6de1c6f753211d2d20648e834cc616cf03a4558450a1fcc6d3"
+      "bytes": 12029,
+      "sha256": "0a756031418f9a5785a7a928c1a5328e72987d0b6dfd7804632ee064254b84bc"
     },
     {
       "path": "thumbnail.png",
@@ -236,16 +246,6 @@
       "path": "web.config",
       "bytes": 1603,
       "sha256": "a32547d44441a79cf8185b669a68d9d666f40d3ea46c01fb487682c56d8e75ae"
-    },
-    {
-      "path": "assets/guardian-loading.mp4",
-      "bytes": 544142,
-      "sha256": "d94faad0b2deea881e181fe419a451b0eba1e6891ecec0fa59e7eb8bc18078fe"
-    },
-    {
-      "path": "assets/guardian-loading.jpg",
-      "bytes": 24634,
-      "sha256": "22733ef0df08e7bd84f7b8a9df5fca4e7d8af93db6cd482330f80afaa2d202a4"
     }
   ]
 }
