@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "06e2b468ed15bfc9c9545ec5df15a408063eea3696aecce5bca3b761a8272599",
-  "inputBytes": 132224477,
-  "upstreamTypeScriptCommit": "7c2a498122ceb4a4b7b1fe36408317dc4be93e70",
+  "inputSha256": "145292dbcbf3e78dccab9ef19238552a583615f22a3098af6b480f7174b8c245",
+  "inputBytes": 177222418,
+  "upstreamTypeScriptCommit": "caea27f15cb458604aafe3e3740ea842c24d5c32",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "517bdc5f4d0caac2cc61674ea80cd04d8ddcc00d1f29707644aca72be1eaea01",
+  "upstreamBundleSha256": "d4524652deebb60c68adaae891f937ea8302b4e01230beb4f43f2a0176d38284",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6636612,
-      "sha256": "517bdc5f4d0caac2cc61674ea80cd04d8ddcc00d1f29707644aca72be1eaea01"
+      "bytes": 6639601,
+      "sha256": "d4524652deebb60c68adaae891f937ea8302b4e01230beb4f43f2a0176d38284"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -114,8 +114,8 @@
     },
     {
       "path": "assets/inspection.json",
-      "bytes": 2544,
-      "sha256": "fdb0a53d92a49060df925bd4855bd36d6c246eef93a8a285641568fa8bb99851"
+      "bytes": 2940,
+      "sha256": "64d0cac7e6f9725695b697cda10d93a62f731f954c07bc758e3a4e63e4a30e92"
     },
     {
       "path": "assets/intro-music.wav",
@@ -169,13 +169,13 @@
     },
     {
       "path": "credits.html",
-      "bytes": 7202,
-      "sha256": "d26200490de1b2c031317e86fe46afed8b5c8b10d29081228a3fb5bde7a6f996"
+      "bytes": 7827,
+      "sha256": "8c978b48a9466bc51d2b95c647458d12c36a1c6510e0ee11879197c1790b8248"
     },
     {
       "path": "index.html",
-      "bytes": 7703,
-      "sha256": "16ec4ed970efdd3d83ac031cb5c2e733a3f0c0a3e96c6ab9bfce4d97b7a6f672"
+      "bytes": 7784,
+      "sha256": "208273a9822dc1146168471990c89f61901d9452298018d0aca0fb78fd619018"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -231,6 +231,11 @@
       "path": "web.config",
       "bytes": 1418,
       "sha256": "59d3cef46fc2bc8a14b60fb8cba04ffdf1bec5da32f146bf78155dd8d031ba01"
+    },
+    {
+      "path": "assets/master-chief.glb",
+      "bytes": 47506824,
+      "sha256": "4ae6e44e8ec438448253ae9bb595e2c80e345c4a33f2a8cdc4a9cfd7d100ac78"
     }
   ]
 }

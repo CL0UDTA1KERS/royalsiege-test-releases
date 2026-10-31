@@ -51,11 +51,14 @@ for (const relative of paths) {
   await utimes(target, timestamp, timestamp);
   files.push({ path: relative, bytes: bytes.length, sha256: digest(bytes) });
 }
-assert.equal(files.filter(file => file.path.endsWith(".glb")).length, 10);
+assert.equal(files.length, 46);
+assert.equal(files.filter(file => file.path.endsWith(".glb")).length, 11);
+assert.equal(files.find(file => file.path === "assets/master-chief.glb").sha256, "4ae6e44e8ec438448253ae9bb595e2c80e345c4a33f2a8cdc4a9cfd7d100ac78");
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=pawn-037"'));
+assert.ok(html.includes('src="./assets/app.js?v=chief-038"'));
+assert.ok(html.includes('data-view="masterchief"'));
 assert.ok(html.includes('id="mission-dialog"'));
 assert.ok(html.includes('id="mission-ok"'));
 assert.equal(files.find(file=>file.path==="assets/intro-music.wav").sha256,"3438b56d69d2963df24fb469c8203bd6864e70898bd499a3ddf1a62c5ca0fd87");
