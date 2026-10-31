@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "145292dbcbf3e78dccab9ef19238552a583615f22a3098af6b480f7174b8c245",
-  "inputBytes": 177222418,
-  "upstreamTypeScriptCommit": "caea27f15cb458604aafe3e3740ea842c24d5c32",
+  "inputSha256": "230378947a67b1f82fd58f99bc40fb12181a743fe30507add63e40027222fb25",
+  "inputBytes": 177226497,
+  "upstreamTypeScriptCommit": "8ceba369cdfa47801d363e9b97063ae51fa1c82a",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "d4524652deebb60c68adaae891f937ea8302b4e01230beb4f43f2a0176d38284",
+  "upstreamBundleSha256": "0b65aef32d9c540280733b7b199cbefde46bb0b5363a1eeae24127e9a09ef138",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6639601,
-      "sha256": "d4524652deebb60c68adaae891f937ea8302b4e01230beb4f43f2a0176d38284"
+      "bytes": 6649960,
+      "sha256": "0b65aef32d9c540280733b7b199cbefde46bb0b5363a1eeae24127e9a09ef138"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -138,6 +138,11 @@
       "sha256": "1ae709f59c79fc7f2b32a8e30b1abe036b6ae3e2e370fed54edca55d0bf44df3"
     },
     {
+      "path": "assets/master-chief.glb",
+      "bytes": 47506824,
+      "sha256": "4ae6e44e8ec438448253ae9bb595e2c80e345c4a33f2a8cdc4a9cfd7d100ac78"
+    },
+    {
       "path": "assets/objective-flag.glb",
       "bytes": 653640,
       "sha256": "4447c73ea65058773bee554d0d21ae39086c187dcc86f861097946f0857417fa"
@@ -169,13 +174,13 @@
     },
     {
       "path": "credits.html",
-      "bytes": 7827,
-      "sha256": "8c978b48a9466bc51d2b95c647458d12c36a1c6510e0ee11879197c1790b8248"
+      "bytes": 8375,
+      "sha256": "cab71630f748cde8c5ee311381d2cd779f988255218de20cc311c35a79297c24"
     },
     {
       "path": "index.html",
-      "bytes": 7784,
-      "sha256": "208273a9822dc1146168471990c89f61901d9452298018d0aca0fb78fd619018"
+      "bytes": 8906,
+      "sha256": "a1756d42b40b07e595f9bfdc23cb7c7ce831a5b9e983bb5fd7082deb66f74d67"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -219,8 +224,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 10000,
-      "sha256": "01c42cc7e034fc938b1c16c00500d42b852e956bd530463b9f0a0e1d3cd9aff6"
+      "bytes": 11092,
+      "sha256": "7478e206024a9b8ed028e13510f2b7dfe97df6311bd1e2b71f4023c8cd6434f1"
     },
     {
       "path": "thumbnail.png",
@@ -231,11 +236,6 @@
       "path": "web.config",
       "bytes": 1418,
       "sha256": "59d3cef46fc2bc8a14b60fb8cba04ffdf1bec5da32f146bf78155dd8d031ba01"
-    },
-    {
-      "path": "assets/master-chief.glb",
-      "bytes": 47506824,
-      "sha256": "4ae6e44e8ec438448253ae9bb595e2c80e345c4a33f2a8cdc4a9cfd7d100ac78"
     }
   ]
 }
