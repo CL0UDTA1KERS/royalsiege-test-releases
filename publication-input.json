@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "230378947a67b1f82fd58f99bc40fb12181a743fe30507add63e40027222fb25",
-  "inputBytes": 177226497,
-  "upstreamTypeScriptCommit": "8ceba369cdfa47801d363e9b97063ae51fa1c82a",
+  "inputSha256": "33694d10419b06a214e233acefead94f54f9dccc5c87b3ab31636b8dc1100520",
+  "inputBytes": 177226756,
+  "upstreamTypeScriptCommit": "1015f8f282bd43af5beffa36e2000ac011a2d075",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "0b65aef32d9c540280733b7b199cbefde46bb0b5363a1eeae24127e9a09ef138",
+  "upstreamBundleSha256": "0ca241614475321a34c94395213270b4b75b3c5251d0dccc7c23d7a618d0cc8b",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6649960,
-      "sha256": "0b65aef32d9c540280733b7b199cbefde46bb0b5363a1eeae24127e9a09ef138"
+      "bytes": 6650628,
+      "sha256": "0ca241614475321a34c94395213270b4b75b3c5251d0dccc7c23d7a618d0cc8b"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -179,8 +179,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8906,
-      "sha256": "a1756d42b40b07e595f9bfdc23cb7c7ce831a5b9e983bb5fd7082deb66f74d67"
+      "bytes": 8907,
+      "sha256": "e5c2f4a6fe5ea016b21eb1232ea7e594241768ba7e1d09b0dfbe271b60a8633e"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
