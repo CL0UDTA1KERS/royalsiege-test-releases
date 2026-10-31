@@ -57,7 +57,7 @@ assert.equal(files.find(file => file.path === "assets/master-chief.glb").sha256,
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=racks-040"'));
+assert.ok(html.includes('src="./assets/app.js?v=mobile-041"'));
 assert.ok(html.includes('id="win-estimates"'));
 assert.ok(html.includes('id="observation-deck" class="camera-tools" aria-label="Camera views" hidden'));
 assert.ok(html.includes('data-view="masterchief"'));
