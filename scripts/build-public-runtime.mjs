@@ -51,14 +51,22 @@ for (const relative of paths) {
   await utimes(target, timestamp, timestamp);
   files.push({ path: relative, bytes: bytes.length, sha256: digest(bytes) });
 }
-assert.equal(files.length, 46);
+assert.equal(files.length, 48);
 assert.equal(files.filter(file => file.path.endsWith(".glb")).length, 11);
 assert.equal(files.find(file => file.path === "assets/master-chief.glb").sha256, "4ae6e44e8ec438448253ae9bb595e2c80e345c4a33f2a8cdc4a9cfd7d100ac78");
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=mobile-041"'));
+assert.ok(html.includes('src="./assets/app.js?v=loading-042"'));
 assert.ok(html.includes('id="win-estimates"'));
+assert.ok(html.includes('<dialog id="loading"'));
+assert.ok(html.includes('autoplay muted loop playsinline'));
+assert.ok(html.includes('src="./assets/guardian-loading.mp4"'));
+for(const name of ["guardian-loading.mp4","guardian-loading.jpg"])
+  assert.equal(files.find(file=>file.path==="assets/"+name).sha256,input.files.find(file=>file.path==="assets/"+name).sha256);
+const config=await readFile("work/web.config","utf8");
+assert.ok(config.includes("media-src 'self';"));
+assert.ok(config.includes('mimeType="video/mp4"'));
 assert.ok(html.includes('id="observation-deck" class="camera-tools" aria-label="Camera views" hidden'));
 assert.ok(html.includes('data-view="masterchief"'));
 assert.ok(html.includes('id="mission-dialog"'));

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "fe5cb3362b2edfa2045b0160e246f3f6cd1d36e1390792a075040a4bb726d03a",
-  "inputBytes": 177226824,
-  "upstreamTypeScriptCommit": "d6a68d4500be9693c580c0c472e5589a1cebfe32",
+  "inputSha256": "a1d540420259e7c5f4db85f7fcbeb1b6b41edb62b9fe04d7648ee29f5e7642fa",
+  "inputBytes": 177793052,
+  "upstreamTypeScriptCommit": "5cb796d77abb9a8a94114c3a51b56f799d22d5d1",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "fced8991055f0dfd924e888f4629e31c36b94264596aa8de26166ad9a16ba3dd",
+  "upstreamBundleSha256": "6e73d8932e4c4b23a152773ec460c572a3db013b7b05303adef58def204a23b9",
   "files": [
     {
       "path": "README.html",
@@ -14,8 +14,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 6650734,
-      "sha256": "fced8991055f0dfd924e888f4629e31c36b94264596aa8de26166ad9a16ba3dd"
+      "bytes": 6651617,
+      "sha256": "6e73d8932e4c4b23a152773ec460c572a3db013b7b05303adef58def204a23b9"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -179,8 +179,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8908,
-      "sha256": "9d1905573a1a281e2898620d173422593f038d89fd3cd54f2b031e222ed33f18"
+      "bytes": 9297,
+      "sha256": "52c9ad66388b4632d44e1f270b653b08227093434cff28ec707185bc32ba2e7a"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
@@ -224,8 +224,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 11170,
-      "sha256": "6a19fa43c87f652430f08bfd24211d04f5be690f6fb531a1b6fb0a0a9d2c5afc"
+      "bytes": 11775,
+      "sha256": "cb61bb038e6bdb6de1c6f753211d2d20648e834cc616cf03a4558450a1fcc6d3"
     },
     {
       "path": "thumbnail.png",
@@ -234,8 +234,18 @@
     },
     {
       "path": "web.config",
-      "bytes": 1418,
-      "sha256": "59d3cef46fc2bc8a14b60fb8cba04ffdf1bec5da32f146bf78155dd8d031ba01"
+      "bytes": 1603,
+      "sha256": "a32547d44441a79cf8185b669a68d9d666f40d3ea46c01fb487682c56d8e75ae"
+    },
+    {
+      "path": "assets/guardian-loading.mp4",
+      "bytes": 544142,
+      "sha256": "d94faad0b2deea881e181fe419a451b0eba1e6891ecec0fa59e7eb8bc18078fe"
+    },
+    {
+      "path": "assets/guardian-loading.jpg",
+      "bytes": 24634,
+      "sha256": "22733ef0df08e7bd84f7b8a9df5fca4e7d8af93db6cd482330f80afaa2d202a4"
     }
   ]
 }
