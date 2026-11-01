@@ -3,7 +3,7 @@
   "testOnly": true,
   "inputSha256": "35a543d08b90ded51a73ab8f1dbb1f66a803a64cb59fe12d0a48f3fa9c9173b9",
   "inputBytes": 177793450,
-  "upstreamTypeScriptCommit": "bb01d85cd7eab040c21446936dbb639c2a91224a",
+  "upstreamTypeScriptCommit": "34aab386ae716442a0448ff6ed57dc029dd08f92",
   "upstreamTypeScriptCompile": "passed",
   "upstreamBundleSha256": "c28035ebe535548547f622143bc0d85ae7287e183562cdc30039667fc21c62da",
   "files": [
