@@ -57,7 +57,9 @@ assert.equal(files.find(file => file.path === "assets/master-chief.glb").sha256,
 assert.equal(files.find(file => file.path === "assets/intro-music.wav").sha256, input.files.find(file => file.path === "assets/intro-music.wav").sha256);
 const html = await readFile("work/index.html", "utf8");
 assert.ok(html.includes('id="show-reference" hidden disabled'));
-assert.ok(html.includes('src="./assets/app.js?v=racks-045"'));
+assert.ok(html.includes('src="./assets/app.js?v=outcomes-046"'));
+for (const id of ["match-outcome", "outcome-title", "outcome-winner", "outcome-new-game", "outcome-view"])
+  assert.ok(html.includes(`id="${id}"`));
 assert.ok(html.includes('id="win-estimates"'));
 assert.ok(html.includes('<dialog id="loading"'));
 assert.ok(html.includes('autoplay muted loop playsinline'));
@@ -66,6 +68,7 @@ for(const name of ["guardian-loading.mp4","guardian-loading.jpg"])
   assert.equal(files.find(file=>file.path==="assets/"+name).sha256,input.files.find(file=>file.path==="assets/"+name).sha256);
 const config=await readFile("work/web.config","utf8");
 assert.ok(config.includes("media-src 'self';"));
+assert.ok(config.includes("connect-src 'self' https://cl0udta1ker.com blob:;"));
 assert.ok(config.includes('mimeType="video/mp4"'));
 assert.ok(html.includes('id="observation-deck" class="camera-tools" aria-label="Camera views" hidden'));
 assert.ok(html.includes('data-view="masterchief"'));
@@ -85,6 +88,7 @@ assert.ok(!html.includes('data-count='));
 assert.ok(html.includes('id="gpu-benchmark"'));
 assert.ok(!first.outputFiles[0].text.includes("__GAME_FIXTURE__"));
 assert.ok(!first.outputFiles[0].text.includes("__GPU_PROBE__"));
+assert.ok(!first.outputFiles[0].text.includes("__OUTCOME_FIXTURE__"));
 assert.ok(html.includes("TEST PREVIEW / SCENE BUILD"));
 assert.ok(!html.includes("../../../references/"));
 execFileSync("zip", ["-X", "-q", "../dist/royalsiege-http-test.zip", ...paths], { cwd: "work" });
