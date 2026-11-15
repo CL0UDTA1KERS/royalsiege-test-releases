@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "testOnly": true,
-  "inputSha256": "e15f86f6bf5454fc49a86a0e180ba3a080f91cfbe0e86eafd334bf29e49f2140",
-  "inputBytes": 177396104,
-  "upstreamTypeScriptCommit": "7c9ed93918eae3a15961592ca8ef1711b0d6d805",
+  "inputSha256": "e43419b148eed01f8543fa1a4645d9158b7cb537a94a396513ad11c7af990d61",
+  "inputBytes": 177397221,
+  "upstreamTypeScriptCommit": "388e04dcf8f16c255ba3fb7b0ded20d4829857eb",
   "upstreamTypeScriptCompile": "passed",
-  "upstreamBundleSha256": "a908b13e22fce0a387f1286a0aa18392b5bdcd7f03e2b26d3725e9e94793dc73",
+  "upstreamBundleSha256": "a366ab4919ade631d58ad576b6c09b2e37763e276b1ec40f0638ea967e01f804",
   "files": [
     {
       "path": "README.html",
-      "bytes": 1440,
-      "sha256": "ebb0b78ac76f87f4ad1a194b164d27293de810d45f52866b83282926eabab5d0"
+      "bytes": 1883,
+      "sha256": "ec05783f444225282523ec497432de7c2b201a654c14d332a621efcd80959efd"
     },
     {
       "path": "assets/app.js",
-      "bytes": 6656831,
-      "sha256": "a908b13e22fce0a387f1286a0aa18392b5bdcd7f03e2b26d3725e9e94793dc73"
+      "bytes": 6659760,
+      "sha256": "a366ab4919ade631d58ad576b6c09b2e37763e276b1ec40f0638ea967e01f804"
     },
     {
       "path": "assets/app.js.LEGAL.txt",
@@ -190,7 +190,7 @@
     {
       "path": "index.html",
       "bytes": 10266,
-      "sha256": "9c2fd4483e77e7601c4f6231506c1954f7fa89aeb43285698d5e9fb3c5e0a420"
+      "sha256": "acea350b4e37b5a0d0a6494470938222a8c34e57e8dcdab1cb039996b36b038d"
     },
     {
       "path": "licenses/babylon-apache-2.0.txt",
